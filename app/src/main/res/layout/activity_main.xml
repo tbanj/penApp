@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wholeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pen_background"
+    android:orientation="vertical"
+    tools:context="com.practicaleducationnetwork.penapp.activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/termsAndConditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/agreeAndContinue"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/tAndC"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:id="@+id/termsInFull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/termsInFull"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/agreeAndContinue"
+        android:layout_width="228dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/round_button"
+        android:text="@string/agreeAndC"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

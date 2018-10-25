@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#229F9C</color>
+    <color name="colorPrimaryDark">#229F9C</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Background color of SignUp Page -->
+    <color name="signUp_todo">@color/colorPrimary</color>
+
+    <color name="placeholder_profile">#828282</color>
+
+    <color name="line_color_profile">@color/colorPrimary</color>
+
+    <!--Colors in Verification Page -->
+    <color name="gradient_start">#CC229F9C</color>
+    <color name="gradient_end">#CCFACF12</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGrey">#4c4c4c</color>
+    <color name="grey01">#dfe4ea</color>
+    <color name="fadeWhite">#ecf0f1</color>
+    <color name="feedTitleColors">#1F2F42</color>
+    <color name="pendingStatus">#F5A623</color>
+    <color name="approvedStatus">#0F715E</color>
+    <color name="black50">#54000000</color>
+    <color name="black70">#70000000</color>
+    <color name="black87">#87000000</color>
+    <color name="black38">#38000000</color>
+    <color name="buttonColors">#1F2F42</color>
+    <color name="inactive_tab">#70FFFFFF</color>
+    <color name="chatBackground">#f1f2f6</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#28BBBB</color>
+    <color name="bg_screen2">#8E44AD</color>
+    <color name="bg_screen3">#3498DB</color>
+    <color name="bg_screen4">#27ae60</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#50000000</color>
+    <color name="dot_dark_screen2">#50000000</color>
+    <color name="dot_dark_screen3">#50000000</color>
+    <color name="dot_dark_screen4">#50000000</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#ffffff</color>
+    <color name="dot_light_screen2">#ffffff</color>
+    <color name="dot_light_screen3">#ffffff</color>
+    <color name="dot_light_screen4">#ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Book -->
+    <font
+        android:font="@font/gothamnarrow_book"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+
+        app:font="@font/gothamnarrow_book"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <!-- Book -->
+</font-family>

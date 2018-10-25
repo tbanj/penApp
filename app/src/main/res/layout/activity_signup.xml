@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practicaleducationnetwork.penapp.activities.SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/signUp_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18px"
+            android:layout_marginTop="56dp"
+            android:height="29dp"
+            android:fontFamily="Lato"
+            android:text="@string/signup_profile"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:textStyle="normal" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/user_image_profile"
+
+            android:layout_width="166dp"
+            android:layout_height="166dp"
+            android:layout_below="@id/signUp_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:adjustViewBounds="true"
+            android:elevation="12dp"
+
+            android:innerRadius="0dp"
+
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            app:cardCornerRadius="83dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/image_base"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ellipse"/>
+
+                <ImageView
+                    android:id="@+id/image_center"
+                    android:layout_width="41dp"
+                    android:layout_height="56dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/camera_inner" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_image_profile"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="77dp"
+            android:layout_marginTop="31dp"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/firstNameEdit"
+                style="@color/placeholder_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:backgroundTint="@color/line_color_profile"
+                android:fontFamily="Lato"
+                android:hint="@string/hintfirstName"
+                android:text="Test data"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/placeholder_profile"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/hint_text_14dp"
+                android:textStyle="normal"/>
+
+
+            <EditText
+                android:id="@+id/lastNameEdit"
+                style="@color/placeholder_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:backgroundTint="@color/line_color_profile"
+                android:hint="@string/hintlastName"
+                android:text="Test data"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/placeholder_profile"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/hint_text_14dp"/>
+
+            <EditText
+                android:id="@+id/school_name_Edit"
+                style="@color/placeholder_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:backgroundTint="@color/line_color_profile"
+                android:hint="@string/hintSchoolName"
+                android:text="Test data"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/placeholder_profile"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/hint_text_14dp" />
+
+            <EditText
+                android:id="@+id/district_school_Edit"
+                style="@color/placeholder_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:backgroundTint="@color/line_color_profile"
+                android:hint="@string/hintSchoolDistrict"
+                android:text="Test data"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/placeholder_profile"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/hint_text_14dp" />
+
+            <EditText
+                android:id="@+id/city_of_school_Edit"
+                style="@color/placeholder_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:backgroundTint="@color/line_color_profile"
+                android:hint="@string/hintCitySchool"
+                android:text="Test data"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/placeholder_profile"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/hint_text_14dp" />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="21dp"
+                android:background="@drawable/round_button"
+                android:text="@string/submit_form"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

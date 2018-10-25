@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "779172359464",
+    "firebase_url": "https://penapp-2c5f4.firebaseio.com",
+    "project_id": "penapp-2c5f4",
+    "storage_bucket": "penapp-2c5f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779172359464:android:996757e671afdcaa",
+        "android_client_info": {
+          "package_name": "com.practicaleducationnetwork.penapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779172359464-ufi6pmm9i182rnmc5ntqodk41usduf9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXGj-LQPcZFo3abbPg1zne0bnNeavOLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">PenApp</string>
+
+    <string name="tAndC">Terms and Conditions</string>
+    <string name="agreeAndC">Agree and Continue</string>
+    <string name="termsInFull">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus turpis non lectus molestie blandit.
+        Maecenas nec dapibus velit. Phasellus aliquam id leo et ullamcorper. Suspendisse quis iaculis sem, at bland
+        it quam. Pellentesque consectetur sed elit sit amet volutpat.
+        \n\n
+        Quisque magna risus, convallis quis porta a, d
+        ignissim volutpat nisi. Nullam placerat, sem id gravida rhoncus, nibh risus bibendum ipsum, at lacinia nisl ma
+        ssa nec purus. Fusce aliquet augue porta ligula imperdiet, vitae mattis arcu vehicula.
+        \n\n
+        Nullam consequat, tellus et interdum vestibulum, tortor tortor ullamcorper nisi, eget mollis quam est at lectus.
+        Aenean tempor mi sem, ac pretium erat cursus vitae. Donec lobortis ut nunc vitae porttitor. Etiam lectus sapien,
+        viverra at hendrerit ac, aliquet non velit. Aenean imperdiet pharetra massa, in finibus nisi venenatis vel.
+    </string>
+
+    <string name="signup_profile">SIGN UP</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="middleName">Middle Name</string>
+    <string name="districtOfSchoolContact">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="sexMale">Male</string>
+    <string name="sexFemale">Female</string>
+    <string name="Undecide">Undisclose</string>
+    <string name="submit_form">Save and Continue</string>
+    <string name="reset_form">Reset</string>
+    <string name="share_form">Share</string>
+
+    <string name="sex_male_text">Male</string>
+    <string name="sex_female_text">Female</string>
+    <string name="sex_undisclose_text">Female</string>
+
+
+    <string name="hintfirstName">First Name</string>
+    <string name="hintlastName">Last Name</string>
+    <string name="hintSchoolName">Name of School</string>
+    <string name="hintSchoolDistrict">District of School</string>
+    <string name="hintCitySchool">City of School</string>
+
+    <string name="pick_image_intent_text">Select Image</string>
+
+
+    //String resources used in VerifyActivity
+    <string name="defaultCountryCode">+234</string>
+    <string name="verifyPrompt">
+        Verify your phone number. The Practical Education Network will send a one time SMS message
+        to verify your phone number. Carrier SMS charges may apply.
+        \n\n\n
+        Please confirm your country code and enter your phone number
+    </string>
+    <string name="okText">OK</string>
+    <string-array name="countries">
+        <item>Ghana</item>
+        <item>Nigeria</item>
+    </string-array>
+    <string name="beforeNumber">
+        We will be verifying the phone number:
+    </string>
+    <string name="afterNumber">
+        Is this OK, or would you like to edit the number?
+    </string>
+    <string name="editText">Edit</string>
+    <string name="confirmDialogTitle">Confirm number</string>
+    <string name="mobileNumberError">Mobile number must be 10 digits long!</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="title_activity_feed">FeedActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

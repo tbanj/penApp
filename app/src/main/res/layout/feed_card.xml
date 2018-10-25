@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:background="@color/fadeWhite">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/feed_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_feed_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"><!--This are all the other elements apart from the image view-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="200dp"
+                android:maxHeight="400dp">
+
+                <ProgressBar
+                    android:id="@+id/image_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:progressTint="@color/colorPrimaryDark"
+                    android:progressBackgroundTint="@color/colorAccent"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="200dp"
+                    android:maxHeight="400dp"
+                    android:id="@+id/post_image"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="false"
+                    />
+            </FrameLayout>
+
+
+            <!--<org.transgovgh.app.Helpers.ResizableImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:minHeight="200dp"-->
+            <!--android:id="@+id/post_image"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="@color/feedTitleColors"
+                    android:id="@+id/title"
+                    android:textSize="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/gotham_book"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/gotham_book"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/pending_status_background"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:id="@+id/status"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Description"
+                android:id="@+id/description"
+                android:textColor="@color/black87"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:fontFamily="@font/gotham_book"
+                />
+
+
+
+            <!--Start of Bottom Icons-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/up_vote"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_thumb_up"
+                    android:text=" Up Vote"
+                    android:fontFamily="@font/gotham_book"
+                    android:textColor="@color/black87"
+                    android:textAllCaps="false"
+                    android:textSize="14dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    tool:text="23"
+                    android:id="@+id/upvote_count"
+                    android:textColor="@color/black87"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/gotham_book"
+                    />
+
+                <Button
+                    android:id="@+id/comment"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_comment"
+                    android:text=" Comment"
+                    android:fontFamily="@font/gotham_book"
+                    android:textColor="@color/black87"
+                    android:textAllCaps="false"
+                    android:textSize="14dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    tool:text="23"
+                    android:id="@+id/comment_count"
+                    android:textColor="@color/black87"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/gotham_book"
+                    />
+
+            </LinearLayout>
+            <!--End of Bottom Icons-->
+
+        </LinearLayout><!--This is the END of all the other elements apart from the image view-->
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

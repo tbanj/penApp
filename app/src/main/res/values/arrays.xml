@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <array name="categories_0">
+            <item>1</item>
+            <item>Pizza</item>
+        </array>
+        <array name="categories_1">
+            <item>2</item>
+            <item>Burger</item>
+        </array>
+        <array name="categories_2">
+            <item>3</item>
+            <item>Maggie</item>
+        </array>
+</resources>
